@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Leave the title, the fonts link and the script line for Chapter 3 -->
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Header: your page's name and links -->
+  <header class="site-header">
+    <a class="brand" href="#top">Geeks Ramen</a>
+    <nav class="site-nav">
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <p class="open-now">Open today · 7 AM to 10 PM</p>
+  </header>
+
+  <main id="top">
+
+    <!-- 1. Hero: your headline, one line, and the big photo -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Everything Ramen Near You.</h1>
+        <p class="hero-text">flavorful, fast Wi-Fi, and an outlet at every table.</p>
+        <a class="button" href="#menu">Click here</a>
+      </div>
+      <img class="hero-image" src="images/hero.jpg">
+    </section>
+
+    <!-- 2. Three favourites (a dark section) -->
+    <section class="highlights section-dark" id="menu">
+      <p class="eyebrow">On the menu</p>
+      <h2>Our three favourites</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="images/highlight-1.jpg">
+          <h3>The Commit</h3>
+          <p>Commit to the strong taste of ramen.</p>
+        </article>
+        <article class="card">
+          <img src="images/highlight-2.jpg">
+          <h3>Anghangnoh</h3>
+          <p>A perfectly cooked egg and spicy base.</p>
+        </article>
+        <article class="card">
+          <img src="images/highlight-3.jpg">
+          <h3>Experamen</h3>
+          <p>For when you want to experience ramen in Japan.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3. Full menu: one <li> per item -->
+    <section class="full-menu">
+      <h2>Full menu</h2>
+      <div class="menu-groups">
+        <div class="menu-group">
+          <h3>Spicy</h3>
+          <ul class="menu-list">
+            <li><span>The Commit</span><span>₱110</span></li>
+            <li><span>Merge it all</span><span>₱150</span></li>
+            <li><span>Anghangnoh</span><span>₱160</span></li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h3>Not Spicy</h3>
+          <ul class="menu-list">
+            <li><span>Markdown</span><span>₱150</span></li>
+            <li><span>Hot Ramen</span><span>₱120</span></li>
+            <li><span>Yamiramen</span><span>₱90</span></li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h3>Snacks</h3>
+          <ul class="menu-list">
+            <li><span>Debug Brownie</span><span>₱95</span></li>
+            <li><span>Cookie Cache</span><span>₱70</span></li>
+            <li><span>Ham and Cheese Croissant</span><span>₱130</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Story (a dark section) -->
+    <section class="story section-dark" id="story">
+      <p class="eyebrow">The story</p>
+      <h2>Started by students who loves ramen.</h2>
+      <p>We wanted a place near campus with great ramen and room for a laptop. Come for a bowl, stay for your next commit.</p>
+    </section>
+
+    <!-- 5. Visit: hours and where to find you -->
+    <section class="visit" id="visit">
+      <h2>Come say hi</h2>
+      <div class="visit-details">
+        <div>
+          <h3>Hours</h3>
+          <p>Monday to Friday<br>8 AM to 10 PM</p>
+          <p>Saturday and Sunday<br>9 AM to 8 PM</p>
+        </div>
+        <div>
+          <h3>Find us</h3>
+          <p>Near campus.<br>Look for the black sign.</p>
+        </div>
+        <div>
+          <h3>Good to know</h3>
+          <p>Free Wi-Fi and an outlet at every table.</p>
+        </div>
+      </div>
+      <a class="button button-outline" href="https://www.google.com/maps">Click here</a>
+    </section>
+
+  </main>
+
+  <!-- Footer: put your name here -->
+  <footer class="site-footer">
+    <p>Built by <strong>Franchesca Zyreen Sison</strong> · Prototype to Publishing · © <span id="year"></span></p>
+  </footer>
+
+</body>
+</html>

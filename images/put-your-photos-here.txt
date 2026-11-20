@@ -1,0 +1,8 @@
+Put your 4 full-size photos in this folder, named exactly:
+
+hero.jpg
+highlight-1.jpg
+highlight-2.jpg
+highlight-3.jpg
+
+Lowercase, no spaces. You can delete this file afterwards.
